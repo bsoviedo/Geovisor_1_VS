@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+<link rel='stylesheet' href='CSS/main.css'> 
+
+
+<!--Acá se   -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+crossorigin=""/>
+
+ <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+<script type="text/javascript" src="../GeoJson/tweets.js"></script>
+
+
+<!-- Libreria marker cluster-->
+
+<link rel='stylesheet' href='../Leaflet.markercluster-1.4.1/dist/MarkerCluster.css'>
+<link rel='stylesheet' href='../Leaflet.markercluster-1.4.1/dist/MarkerCluster.Default.css'>
+<script type='text/javascript' src='../Leaflet.markercluster-1.4.1/dist/leaflet.markercluster.js'></script>
+
+
+<title>Geovisor v.1 </title>
+</head>
+<body>
+<!-- acá va a ir un título, y tal vez algún menu-->
+<header> <h1> Geovisor datos </h1>  </header>
+
+
+<!-- acá va la descripción -->
+<section id='intro'>
+<p>En este visor de datos geograficos se presentan datos recolectados de la 
+red social twitter, en especifico del perfil de la ong vidas silenciadas, 
+el objetivo es mostrar, mediante el uso de información geógrafica, la localización
+de distintos echos reportados por la ONG, la cual se centra en crimenes en los cuales
+se ha reportado la participación del Estado Colombiano.
+<br>
+<br>
+<br>
+Para más información acerca del proceso de recolección de datos 
+mediante la plataforma Twitter, el procesamiento de los datos y el desarrollo web, 
+puedes seguir este <a href='ENLACEEEE' alt='enlace redirecciona a detalles'> enlace.</a></p>
+</section>
+
+
+<!-- acá va el geovisor, revisar si no es mejor usar un div o 
+un article-->
+<div id='mapid'></div>  
+<script src='JS/main.js'></script>
+
+
+  
+
+
+
+<!-- Acá alguna info de contacto y metadatos-->
+<footer> 
+    <p> Todos los datos presentados en este geovisor fueron recolectados de la cuenta oficial de twitter
+        de vidas silenciadas.org, para más información dirijase al siguiente <a href='https://twitter.com/VidaSilenciadas?lang=es'
+         alt='enlace a twitter' target='blank'> enlace. </a>
+    </p>
+
+    <p> Gracias por visitar, puedes contactarme a mi <a href= mailto:bsoviedoy@gmail.com> correo</a></p>
+    <p> y también puedes encontrarme en Linkedin</p> 
+    <a href='https://www.linkedin.com/in/brayan-oviedo-yate-478072136/'> <img src='https://logos-marcas.com/wp-content/uploads/2020/04/Linkedin-s%C3%ADmbolo.png' width= '40' 
+        alt='Enlace de perfil de linkedin'/> </a> 
+    </footer>
+</body
+</html>
