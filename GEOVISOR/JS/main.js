@@ -11,7 +11,9 @@ var base= L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png',).addTo(map);
 //Esta versión se hace con marker cluster
 
 
-var markers = L.markerClusterGroup(); //Se establece la variable  markers que sera en esencia
+var markers = L.markerClusterGroup({
+  attribution: 'Twitter/ Vidas silenciadas'
+}); //Se establece la variable  markers que sera en esencia
 //un array de los datos que se le pongan. Acá se pone vacia
 
 var geoJsonLayer = L.geoJson(data, { //acá se lee el layer del geojson
