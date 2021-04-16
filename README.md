@@ -2,7 +2,7 @@
 Geovisor Twitter y Leaflet
 
 
-Enlace completo https://bsoviedoy.github.io/Geovisor_1_VS/GEOVISOR/Index.html
+Enlace completo https://bsoviedo.github.io/Geovisor_1_VS/GEOVISOR/Index.html
 
 
 Tarea versión 2:
